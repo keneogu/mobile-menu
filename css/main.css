@@ -88,11 +88,6 @@ html {
   }
 }
 
-
-a {
-  text-decoration: none;
-}
-
 hr {
   width: 80vw;
 }
@@ -106,7 +101,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -121,8 +117,8 @@ header {
 .menu-bars {
   background: transparent;
   border: none;
-	outline: none;
-	cursor: pointer;
+  outline: none;
+  cursor: pointer;
 }
 
 .menu-bars i {
